@@ -1,10 +1,9 @@
- div { 
+div { 
     text-align: center;
-    max-width: 1600px
+    max-width: 1600px 
 }
 
-
-p {
+.p {
     margin: 0 auto
 }
 
@@ -12,6 +11,10 @@ p {
     height: 725px;
 }
 body {
+    font-family: "Verdana", "Arial";
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
     background-color: #40f6c8;
     color: black
 }
@@ -20,16 +23,23 @@ header {
     color: black
 }
 nav a:hover {
+    padding: 35px;
     text-decoration: none;
     background-color: #40f6c8;
     color: black
 }
 .book {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
     text-decoration: none;
     background-color: #40f6c8;
     color: black
 }
 .join {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
     text-decoration: none;
     background-color: #40f6c8;
     color: black
@@ -47,10 +57,13 @@ nav a:hover {
     color: black
 }
 .msg {
+    padding: 35px;
     background-color: #40f6c8;
     color: black
 }
 footer {
+    margin-top: 200px;
+    padding: 25px 50px;
     font-size: 1.2em;
     text-decoration: none;
     background-color: #40f6c8;
@@ -58,4 +71,30 @@ footer {
 }
 .icon {
     width: 80px;
+}
+
+.p1 {
+    font-family: "Arial", "Verdana";
+}
+
+.home-tittle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
+h2 {
+    margin: 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
