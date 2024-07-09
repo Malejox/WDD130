@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fff;
+            background-color: #ff0000;
             margin: 0;
             padding: 0;
         }
@@ -21,7 +21,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px 0;
-            background-color: #fff;
+            background-color: #000000;
             border-bottom: 1px solid #000;
         }
         .header img {
@@ -31,7 +31,7 @@
         .nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #000;
+            color: #ff0000;
             font-weight: bold;
         }
         .main-title {
@@ -46,14 +46,14 @@
             margin: 20px 0;
         }
         .weight-class {
-            background-color: #fff;
+            background-color: #ff0000;
             padding: 20px;
-            border: 1px solid #000;
+            border: 1px solid #000000;
             text-align: center;
         }
         .weight-class img {
-            width: 100px;
-            height: 150px;
+            width: 275px;
+            height: 200px;
             background-color: #e0e0e0;
             margin-bottom: 10px;
         }
@@ -62,7 +62,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px 0;
-            background-color: #fff;
+            background-color: #ff0000;
             border-top: 1px solid #000;
         }
         .footer img {
@@ -72,69 +72,93 @@
         .footer p {
             margin: 0;
         }
+                /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: #000000;
+            overflow: hidden;
+        }
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #ff0000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+        }
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: rgb(255, 0, 0);
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <img src="logo.png" alt="Logo">
-            <div class="nav">
-                <a href="#">Home</a>
-                <a href="#">Weightclasses</a>
-                <a href="#">Rankings</a>
+            <img src="ufcc.png" alt="Logo">
+            <div class="topnav">
+                <a href="https://malejox.github.io/WDD130/ufc.c/class.html">Home</a>
+                <a href="https://malejox.github.io/WDD130/ufc.c/weightclasses.html">Weightclasses</a>
+                <a href="https://malejox.github.io/WDD130/ufc.c/rankings.html">Rankings</a>
             </div>
         </div>
         <div class="main-title">The Champs!</div>
         <div class="weight-classes">
             <div class="weight-class">
-                <img src="strawweight.png" alt="Strawweight">
                 <p>STRAWWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Zhang Weili</p>
+                <img src="weili data.png" alt="Strawweight">
             </div>
             <div class="weight-class">
-                <img src="flyweight.png" alt="Flyweight">
                 <p>FLYWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Alexandre Pantoja</p>
+                <img src="pantoja data.png" alt="Flyweight">
             </div>
             <div class="weight-class">
-                <img src="bantamweight.png" alt="Bantamweight">
                 <p>BANTAMWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Sean O'Malley</p>
+                <img src="sean data.png" alt="Bantamweight">
             </div>
             <div class="weight-class">
-                <img src="featherweight.png" alt="Featherweight">
                 <p>FEATHERWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Ilia Topuria</p>
+                <img src="topuria data.png" alt="Featherweight">
             </div>
             <div class="weight-class">
-                <img src="lightweight.png" alt="Lightweight">
                 <p>LIGHTWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Islam Makhachev</p>
+                <img src="islam data.png" alt="Lightweight">
             </div>
             <div class="weight-class">
-                <img src="welterweight.png" alt="Welterweight">
                 <p>WELTERWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Leon Edwards</p>
+                <img src="edwards data.png" alt="Welterweight">
             </div>
             <div class="weight-class">
-                <img src="middleweight.png" alt="Middleweight">
                 <p>MIDDLEWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit</p>
+                <p>Dricus Du Plessis</p>
+                <img src="dicruss data.png" alt="Middleweight">
             </div>
             <div class="weight-class">
-                <img src="lightheavyweight.png" alt="Light Heavyweight">
                 <p>LIGHT HEAVYWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit numere facili</p>
+                <p>Alex Pereira</p>
+                <img src="pereira data.png" alt="Light Heavyweight">
             </div>
             <div class="weight-class">
-                <img src="heavyweight.png" alt="Heavyweight">
                 <p>HEAVYWEIGHT</p>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad puent delectus delicata usu. Vidit disentiet eos cu eam an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit numere facili</p>
+                <p>Jon Jones</p>
+                <img src="jones data.png" alt="Heavyweight">
             </div>
         </div>
         <div class="footer">
             <p>HAVE FUN!</p>
-            <img src="contact.png" alt="Contact">
+            <img src="ufcc.png" alt="Contact">
             <p>Questions? <a href="mailto:bae24007@byui.edu">bae24007@byui.edu</a></p>
         </div>
     </div>
